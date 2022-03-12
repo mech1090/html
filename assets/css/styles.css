@@ -45,3 +45,8 @@ hr {
     font-family: font-family: 'Hubballi', cursive;
 
 }
+.footer-class1 {
+    @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+    color: rgb(180, 166, 101);
+
+}
