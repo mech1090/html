@@ -1,8 +1,10 @@
+
 html
 {
     background-color: rgb(233, 227, 227);
     font-size: 16px;
 }
+
 
 .myclass
 {
@@ -10,15 +12,36 @@ color: rgb(235, 146, 46);
 text-decoration: underline;
 color: green;
 }
+
 h3{
     display: inline;
     margin: 5px;
     padding: 0px;
-   /* border: 1px solid black;*/
+   
     width: fit-content;
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
+}
 hr {
     border: 1px solid red;
+}
+
+.li-class > a {
+    color:green;
+    font-size: 16px;
+    text-decoration-line: none ;
+}
+
+
+
+.li-class > a:hover {
+    color: blue;
+
+}
+
+.footer-class {
+    color: rgb(180, 166, 101);
+    font-family: font-family: 'Hubballi', cursive;
+
 }
