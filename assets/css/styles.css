@@ -1,10 +1,24 @@
 
+
+
 html
 {
     background-color: rgb(233, 227, 227);
-    font-size: 16px;
+    
 }
 
+body {
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+   }
 
 .myclass
 {
@@ -29,7 +43,7 @@ hr {
 
 .li-class > a {
     color:green;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration-line: none ;
 }
 
@@ -40,13 +54,55 @@ hr {
 
 }
 
-.footer-class {
-    color: rgb(180, 166, 101);
-    font-family: font-family: 'Hubballi', cursive;
-
-}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   }
 .footer-class1 {
+    
     @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
     color: rgb(180, 166, 101);
 
+}
+.h3-class {
+    display: flex;
+    color: green;
+    align-items: flex-start;
+}
+
+#main-header {
+    display: flex;
+    border-bottom: 3px solid red;
+    align-items: flex-end;
+}
+#main-header > img {
+    width: 100px;
+    height: 100px;
+
+}
+#main-nav {
+    display: flex;
+    column-gap: 16px;
+}
+#main-nav > li {
+    list-style: none;
+}
+
+#main-aside {
+    
+    display: flex;
+}
+.main-aside > aside {
+    
+    border-left: 2px solid green;
+    align-items: center;
+}
+.main-aside > aside > nav > ul > li {
+    list-style: none;
+    
+}
+
+#main-aside > aside > nav > ul > li > a {
+    text-decoration-line: none;
 }
