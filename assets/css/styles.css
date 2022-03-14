@@ -23,12 +23,13 @@ color: green;
 }
 
 
-}
+
 
 .li-class > a {
     color:green;
     font-size: 20px;
     text-decoration-line: none ;
+    
 }
 
 
@@ -41,7 +42,7 @@ color: green;
 footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+
    }
 .footer-class1 {
     
@@ -82,8 +83,9 @@ footer {
     border-left: 2px solid green;
     align-items: center;
 }
-.main-aside > aside > nav > ul > li {
+.item-c > aside > nav > ul > li {
     list-style: none;
+    text-align: right;
     
 }
 

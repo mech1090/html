@@ -12,11 +12,13 @@
   .item-c {
     grid-area: sidebar;
     height: 400px;
+    text-align: left;
     
   }
   .item-d {
     grid-area: footer;
     height: 90px;
+    align-content: flex-end;
   
   }
   
