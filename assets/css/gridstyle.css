@@ -1,0 +1,36 @@
+.item-a {
+    grid-area: header;
+    height: 90px;
+  
+  }
+  .item-b {
+    grid-area: main;
+
+    height: 400px;
+  
+  }
+  .item-c {
+    grid-area: sidebar;
+    height: 400px;
+    
+  }
+  .item-d {
+    grid-area: footer;
+    height: 90px;
+  
+  }
+  
+  .container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+  }
+  .h1-class {
+      color: blue;
+  }
+
+
+
